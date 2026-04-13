@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitaal - Health App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <h2><span class="logo">Vitaal</span></h2>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#signup" class="btn small">Sign Up</a>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Take Control of Your Health, Smarter</h1>
+      <p>
+        Vitaal helps you track, manage, and improve your health with a simple and intuitive digital experience.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#signup" class="btn primary">Sign Up</a>
+        <a href="#preview" class="btn secondary">View Demo</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f" alt="health app">
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <h2>Why Vitaal?</h2>
+
+    <div class="cards">
+      <div class="card">🧠 Smart Tracking</div>
+      <div class="card">🔒 Secure & Private</div>
+      <div class="card">⚡ Easy to Use</div>
+      <div class="card">📊 Insights & Reports</div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PREVIEW -->
+  <section class="preview">
+    <div class="preview-text">
+      <h2>Your Health Dashboard</h2>
+      <p>
+        Track your health, monitor your progress, and improve your daily habits — all in one place.
+      </p>
+    </div>
+
+    <div class="preview-img">
+      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef" alt="dashboard">
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>What Users Say</h2>
+
+    <div class="reviews">
+      <div class="review">
+        "Vitaal helped me stay consistent with my health goals." ⭐⭐⭐⭐⭐
+      </div>
+
+      <div class="review">
+        "Clean design and very intuitive." ⭐⭐⭐⭐⭐
+      </div>
+
+      <div class="review">
+        "I love tracking my progress daily." ⭐⭐⭐⭐⭐
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Start your health journey today</h2>
+    <p>Join thousands of users improving their health with Vitaal.</p>
+  </section>
+
+ <section id="signup" class="signup">
+  <h2>Create your account</h2>
+  <p>Join Vitaal and start improving your health today.</p>
+
+  <form class="signup-form" id="signupForm">
+  <input type="text" id="name" placeholder="Full Name">
+  <small class="error" id="nameError"></small>
+
+  <input type="email" id="email" placeholder="Email Address">
+  <small class="error" id="emailError"></small>
+
+  <input type="password" id="password" placeholder="Password">
+  <small class="error" id="passwordError"></small>
+
+  <button type="submit" class="btn big">Sign Up</button>
+</form>
+
+</section>
+  <!-- FOOTER -->
+  <footer id="contact">
+    <p>© 2026 Vitaal. All rights reserved.</p>
+  </footer>
+
+  <!-- FLOATING BUTTON -->
+  <a href="#" class="floating-btn">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
